@@ -58,7 +58,7 @@ module.exports = function(app) {
 
         // push new survey to friends
         surveyData.push(newResponder);
-        
+
 
         // return the match from surveyData at position of matchIndex
         res.json(surveyData[matchIndex]);
